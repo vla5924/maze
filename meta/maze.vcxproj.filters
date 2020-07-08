@@ -18,7 +18,10 @@
     <ClCompile Include="..\src\LuaEnv.cpp">
       <Filter>src</Filter>
     </ClCompile>
-    <ClCompile Include="..\src\LuaScript.cpp">
+    <ClCompile Include="..\src\GameWindow.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Player.cpp">
       <Filter>src</Filter>
     </ClCompile>
   </ItemGroup>
@@ -26,7 +29,7 @@
     <ClInclude Include="..\include\LuaEnv.h">
       <Filter>include</Filter>
     </ClInclude>
-    <ClInclude Include="..\include\LuaScript.h">
+    <ClInclude Include="..\include\Player.h">
       <Filter>include</Filter>
     </ClInclude>
   </ItemGroup>
@@ -34,5 +37,10 @@
     <None Include="..\scripts\test.lua">
       <Filter>scripts</Filter>
     </None>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="..\include\GameWindow.h">
+      <Filter>include</Filter>
+    </QtMoc>
   </ItemGroup>
 </Project>
